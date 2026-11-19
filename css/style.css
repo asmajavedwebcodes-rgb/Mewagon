@@ -1,0 +1,39 @@
+.s-card {
+    transition: all ease 0.5s;
+}
+
+.s-card:hover {
+    transform: scale(1.1);
+}
+
+.s-card:hover .heading5 {
+    color: #0d6efd !important;
+}
+
+.brand-logo {
+    filter: grayscale(100);
+}
+
+.brand-logo:hover {
+    filter: grayscale(0);
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.portfolio-content {
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease;
+    transform: translateY(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-item:hover .portfolio-content {
+    transform: translateY(-85px);
+}
+
+
